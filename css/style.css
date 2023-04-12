@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    background: #575872;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #9698d4;
+}
+
+.alert {
+    box-shadow: 5px 5px 2px #00000055;
+}
+
+form {
+    max-width: 500px;
+    background: #7b7ffc;
+    box-shadow: 15px 15px 2px #00000055;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+footer {
+    background-color: #575872;
+}
