@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    background: #494a5e;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #9698d4;
+}
+
+#seccionJuego{
+    max-width: 400px;
+}
+
+.alert {
+    box-shadow: 5px 5px 2px #00000055;
+}
+
+form {
+    background: #7d81fc;
+    box-shadow: 15px 15px 2px #00000055;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+input[type=number]{
+    background-color: #cfe2ff;
+}
+
+footer {
+    background-color: #494a5e;
+}
+
+.btn-primary {
+    background: #4246cf;
+    border: none;
+    box-shadow: 5px 5px 4px #00000055;
+}
+
+.btn-primary:hover {
+    background: #3d41a1;
+    border: none;
+}
