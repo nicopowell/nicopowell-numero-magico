@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-    background: #575872;
+    background: #494a5e;
 }
 
 main {
@@ -17,20 +17,38 @@ main {
     background: #9698d4;
 }
 
+#seccionJuego{
+    max-width: 400px;
+}
+
 .alert {
     box-shadow: 5px 5px 2px #00000055;
 }
 
 form {
-    max-width: 500px;
-    background: #7b7ffc;
+    background: #7d81fc;
     box-shadow: 15px 15px 2px #00000055;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    margin: 0;
+}
+
+input[type=number]{
+    background-color: #cfe2ff;
 }
 
 footer {
-    background-color: #575872;
+    background-color: #494a5e;
+}
+
+.btn-primary {
+    background: #4246cf;
+    border: none;
+    box-shadow: 5px 5px 4px #00000055;
+}
+
+.btn-primary:hover {
+    background: #3d41a1;
+    border: none;
 }
